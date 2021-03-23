@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IconComponent } from './icon/icon.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { IconForStartComponent } from './icon-for-start/icon-for-start.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -10,7 +11,8 @@ import { IconForStartComponent } from './icon-for-start/icon-for-start.component
   declarations: [
     IconComponent,
     SpinnerComponent,
-    IconForStartComponent
+    IconForStartComponent,
+    NavbarComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { IconForStartComponent } from './icon-for-start/icon-for-start.component
   exports: [
     IconComponent,
     SpinnerComponent,
-    IconForStartComponent
+    IconForStartComponent,
+    NavbarComponent
   ]
 })
 export class ComponentsModule { }

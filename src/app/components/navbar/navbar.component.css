@@ -1,0 +1,11 @@
+.navbar{
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* background-color: rgb(32, 31, 31); */
+    box-shadow: 1px 1px  12px rgb(180, 176, 176);
+}
