@@ -1,0 +1,21 @@
+.container__loadings{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    padding-top: 18%;
+}
+.loading{
+    animation: animateLoading 1s ease-in;
+    transition: 1s;
+}
+
+@keyframes animateLoading{
+    from{
+        opacity: .1;
+    }
+    to{
+        opacity: 1;
+    }
+}

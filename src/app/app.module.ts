@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ROUTING } from './routes/app.routes';
 import { PagesModule } from './pages/pages.module';
+import { HelperService } from './services/helpers.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { PagesModule } from './pages/pages.module';
     ROUTING,
     NoopAnimationsModule
   ],
-  providers: [],
+  providers: [
+    HelperService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

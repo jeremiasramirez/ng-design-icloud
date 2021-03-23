@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HelperService } from 'src/app/services/helpers.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class StartPage {
   title = 'page';
+
+  constructor(private helper:HelperService){
+    this.helper.navigate("/home", 3000);
+  }
+
+ 
 }
