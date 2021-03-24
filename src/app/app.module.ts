@@ -14,8 +14,7 @@ import { HelperService } from './services/helpers.service';
   imports: [
     BrowserModule,
     PagesModule,
-    ROUTING,
-    NoopAnimationsModule
+    ROUTING, 
   ],
   providers: [
     HelperService
