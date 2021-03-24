@@ -1,0 +1,24 @@
+.info-user{
+    height:35px;
+    background-color: rgb(115, 152, 255) !important;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.avatar img{
+    width:45px;
+    margin-top: 0;
+    border-radius: 50%;
+}
+.names h1,p{
+    color:white;
+}
+.names h1{
+    margin: 0;
+    font-size: medium;
+}
+.names p{
+    font-size: small;
+    font-weight: 500;
+}

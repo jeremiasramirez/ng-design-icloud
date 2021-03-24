@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { StartPage } from './start/start.page';
 import { HomePage } from './home/home.page';
 import { ComponentsModule } from '../components/components.module';
+import { SettingPage } from './setting/setting.page';
+import { AppsPage } from './apps/apps.page';
 
 
 
@@ -10,7 +12,9 @@ import { ComponentsModule } from '../components/components.module';
 
   declarations: [
     StartPage,
-    HomePage
+    HomePage,
+    SettingPage,
+    AppsPage
   ],
   imports: [
     CommonModule,
@@ -19,7 +23,9 @@ import { ComponentsModule } from '../components/components.module';
   exports: [
     ComponentsModule,
     StartPage,
-    HomePage
+    HomePage,
+    SettingPage,
+    AppsPage
   ]
 })
 export class PagesModule { }

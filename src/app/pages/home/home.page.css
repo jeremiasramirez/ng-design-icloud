@@ -1,9 +1,28 @@
+.flex-1{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
 .setting{
-    padding-top: 20px;
+    padding: 20px;
     margin: 18px;
     width: 300px !important;
+    border-right: 1px solid #eee;
+    height: 100vh;
 }
 
 .setting h1{
+    font-weight:600 !important;
+}
+
+.apps{
+    padding: 20px;
+    margin: 18px;
+    width: 300px !important;
+    height: 100vh;
+}
+
+.apps h1{
     font-weight:600 !important;
 }
