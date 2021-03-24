@@ -6,8 +6,10 @@ import { IconForStartComponent } from './icon-for-start/icon-for-start.component
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatButtonModule} from "@angular/material/button";
 import {MatRippleModule} from '@angular/material/core';
- 
+import {MatCardModule} from '@angular/material/card';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { UserInfoComponent } from './user-info/user-info.component';
  
 @NgModule({
   declarations: [
@@ -15,11 +17,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SpinnerComponent,
     IconForStartComponent,
     NavbarComponent,
+    UserInfoComponent,
     
   ],
   imports: [
     MatButtonModule,
     MatRippleModule,
+    MatCardModule,
     CommonModule,
     BrowserAnimationsModule
   ],
@@ -30,7 +34,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     NavbarComponent,
     MatButtonModule,
-    MatRippleModule
+    MatCardModule,
+    MatRippleModule,
+    UserInfoComponent
   ]
 })
 export class ComponentsModule { }

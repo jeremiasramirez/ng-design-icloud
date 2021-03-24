@@ -1,0 +1,9 @@
+.setting{
+    padding-top: 20px;
+    margin: 18px;
+    width: 300px !important;
+}
+
+.setting h1{
+    font-weight:600 !important;
+}
