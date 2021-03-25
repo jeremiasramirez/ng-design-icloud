@@ -1,19 +1,15 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-item-app',
   templateUrl: './item-app.component.html',
   styleUrls: ['./item-app.component.css']
 })
-export class ItemAppComponent implements OnInit {
+export class ItemAppComponent  {
 
-  @Input() dataTapApp = new Array();
-
+  @Input() dataTapApp = null;
 
   constructor() { }
 
-  ngOnInit(): void { 
-    console.log(this.dataTapApp)
-  }
-
+   
 }

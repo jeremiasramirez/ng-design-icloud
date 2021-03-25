@@ -7,7 +7,7 @@ import { HelperService } from 'src/app/services/helpers.service';
   styleUrls: ['./apps.page.css']
 })
 export class AppsPage {
-  public dataToApp: {name:string,image:string}[] = [];
+  public dataToApp = null;
 
   constructor(private helper:HelperService){
 
