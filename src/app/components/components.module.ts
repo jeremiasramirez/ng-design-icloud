@@ -10,6 +10,7 @@ import {MatCardModule} from '@angular/material/card';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { ItemAppComponent } from './item-app/item-app.component';
  
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { UserInfoComponent } from './user-info/user-info.component';
     IconForStartComponent,
     NavbarComponent,
     UserInfoComponent,
+    ItemAppComponent,
     
   ],
   imports: [
@@ -36,6 +38,7 @@ import { UserInfoComponent } from './user-info/user-info.component';
     MatButtonModule,
     MatCardModule,
     MatRippleModule,
+    ItemAppComponent,
     UserInfoComponent
   ]
 })

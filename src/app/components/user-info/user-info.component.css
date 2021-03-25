@@ -1,5 +1,6 @@
 .info-user{
     height:35px;
+    cursor:pointer !important;
     background-color: rgb(115, 152, 255) !important;
     display:flex;
     justify-content: space-between;
