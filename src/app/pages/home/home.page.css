@@ -9,7 +9,7 @@
     margin: 18px;
     width: 300px !important;
     border-right: 1px solid #eee;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .setting h1{
@@ -19,8 +19,8 @@
 .apps{
     padding: 20px;
     margin: 18px;
-    width: 300px !important;
-    height: 100vh;
+    width: 600px !important;
+   
 }
 
 .apps h1{
