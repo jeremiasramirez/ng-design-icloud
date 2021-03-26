@@ -5,6 +5,7 @@ import { HomePage } from './home/home.page';
 import { ComponentsModule } from '../components/components.module';
 import { SettingPage } from './setting/setting.page';
 import { AppsPage } from './apps/apps.page';
+import { PerfilPage } from './perfil/perfil.page';
 
 
 
@@ -14,7 +15,8 @@ import { AppsPage } from './apps/apps.page';
     StartPage,
     HomePage,
     SettingPage,
-    AppsPage
+    AppsPage,
+    PerfilPage 
   ],
   imports: [
     CommonModule,
@@ -25,7 +27,8 @@ import { AppsPage } from './apps/apps.page';
     StartPage,
     HomePage,
     SettingPage,
-    AppsPage
+    AppsPage,
+    PerfilPage 
   ]
 })
 export class PagesModule { }

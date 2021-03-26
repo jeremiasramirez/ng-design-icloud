@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { HelperService } from 'src/app/services/helpers.service';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-perfil-root',
   templateUrl: './start.page.html',
   styleUrls: ['./start.page.css']
 })
