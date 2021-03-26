@@ -21,7 +21,7 @@ export class HelperService{
             {name: "Contactos", image:"../../../assets/images/icloud-images/contactos.jpg"},
             {name: "Calendario", image:"../../../assets/images/icloud-images/calendario.png"},
             {name: "Fotos", image:"../../../assets/images/icloud-images/fotos.png"},
-            {name: "iCloud", image:"../../../assets/images/icloud-images/icloud.jpg"},
+            {name: "iCloud", image:"../../../assets/images/icloud-images/icloud.png"},
             {name: "Notes", image:"../../../assets/images/icloud-images/notes.png"},
             {name: "Recordatorio", image:"../../../assets/images/icloud-images/reminder.png"},
             {name: "Paginas", image:"../../../assets/images/icloud-images/pages.png"},
