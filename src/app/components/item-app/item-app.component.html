@@ -2,7 +2,7 @@
 
 <section *ngFor="let data of dataTapApp; let index=index" class="container__apps">
    
-    <article class="app" matRipple [matRippleCentered]="true"  matRippleRadius="40">
+    <article class="app" matRipple [matRippleCentered]="true"  [matRippleRadius]="40">
         
         <img [src]="data.image" alt="app">
 

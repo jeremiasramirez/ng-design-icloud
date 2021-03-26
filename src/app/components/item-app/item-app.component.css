@@ -8,6 +8,7 @@
     width: 90px;
     height: 125px;
     cursor:pointer;
+    transform:scale(.9);
     display: inline-block;
 }
 
