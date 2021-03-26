@@ -2,3 +2,17 @@
 
 html, body {background-color: rgb(243, 239, 239); height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+.animate{
+    animation: animateApp .8s linear;
+}
+@keyframes animateApp{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
