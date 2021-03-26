@@ -1,11 +1,14 @@
 
 
-<section *ngFor="let data of dataTapApp; let index=index">
-    
-    <article >
-        {{data.name}}
-         <!-- <img [src]="data.image" alt="app"> -->
+<section *ngFor="let data of dataTapApp; let index=index" class="container__apps">
+   
+    <article class="app"  >
         
+        <img [src]="data.image" alt="app">
+
+        <div class="title__app">
+            <p>{{data.name}}</p>
+        </div>
     </article>
 </section>  
 

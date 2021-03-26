@@ -4,9 +4,11 @@
    
 
 }
+
 .setting{
     padding: 20px;
-    margin: 18px;
+    margin: 12px;
+    margin-left:-10px;
     width: 300px !important;
     border-right: 1px solid #eee;
     /* height: 100vh; */
@@ -19,10 +21,28 @@
 .apps{
     padding: 20px;
     margin: 18px;
-    width: 600px !important;
+    width: 800px !important;
    
 }
 
 .apps h1{
     font-weight:600 !important;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .flex-1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       
+    
+    }
+    .setting{
+        width: 70%;
+        border-right:none;
+    }
 }

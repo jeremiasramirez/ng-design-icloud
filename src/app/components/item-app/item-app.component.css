@@ -1,0 +1,31 @@
+ 
+.container__apps{
+    width: 90px;
+    display: inline-block;
+
+    margin: 20px 22px;
+}
+.app{
+    width: 90px;
+    height: 110px;
+    cursor:pointer;
+    display: inline-block;
+}
+
+.app img{
+    width: 90px;
+    background-color: #eee;
+    border-radius: 30px;
+     
+}
+
+.title__app{
+    text-align: center;
+    font-family:ubuntu;
+    font-size: 17px;
+}
+
+
+
+
+
