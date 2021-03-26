@@ -6,6 +6,7 @@ import { ComponentsModule } from '../components/components.module';
 import { SettingPage } from './setting/setting.page';
 import { AppsPage } from './apps/apps.page';
 import { PerfilPage } from './perfil/perfil.page';
+import { LoginPage } from './login/login.page';
 
 
 
@@ -16,7 +17,8 @@ import { PerfilPage } from './perfil/perfil.page';
     HomePage,
     SettingPage,
     AppsPage,
-    PerfilPage 
+    PerfilPage,
+    LoginPage 
   ],
   imports: [
     CommonModule,
@@ -28,7 +30,8 @@ import { PerfilPage } from './perfil/perfil.page';
     HomePage,
     SettingPage,
     AppsPage,
-    PerfilPage 
+    PerfilPage,
+    LoginPage 
   ]
 })
 export class PagesModule { }
