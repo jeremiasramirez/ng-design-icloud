@@ -10,7 +10,7 @@ export class StartPage {
   title = 'page';
 
   constructor(private helper:HelperService){
-    this.helper.navigate("/home", 3000);
+    this.helper.navigate("/login", 3000);
   }
 
  
