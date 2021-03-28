@@ -13,6 +13,7 @@ import { UserInfoComponent } from './user-info/user-info.component';
 import { ItemAppComponent } from './item-app/item-app.component';
 import { NavbarLeftComponent } from './navbar-left/navbar-left.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     UserInfoComponent,
     ItemAppComponent,
     NavbarLeftComponent,
+    LoginComponent,
     
   ],
   imports: [
@@ -46,6 +48,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatCheckboxModule,
     UserInfoComponent,
     NavbarLeftComponent,
+    LoginComponent,
   ]
 })
 export class ComponentsModule { }

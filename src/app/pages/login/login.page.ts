@@ -9,7 +9,9 @@ import { HelperService } from 'src/app/services/helpers.service';
 export class LoginPage {
   title = 'page';
 
-  constructor(private helper:HelperService){ }
+  constructor(private helper:HelperService){ 
+    this.helper.navigate("/home", 2000);
+  }
 
  
 }

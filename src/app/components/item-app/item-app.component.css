@@ -10,13 +10,14 @@
     cursor:pointer;
     transform:scale(.9);
     display: inline-block;
-    animation: scales .3s 2s ease-in;
-    transition:1s;
+    animation: scales 2s ease-in;
+    transition:1s; 
+  
 }
 @keyframes scales{
     from{
         transform: scale(.9);
-        filter:blur(10);
+        filter:blur(3px);
     }
     to{
         transform: scale(1);
