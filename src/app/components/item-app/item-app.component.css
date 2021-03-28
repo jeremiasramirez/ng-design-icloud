@@ -10,6 +10,18 @@
     cursor:pointer;
     transform:scale(.9);
     display: inline-block;
+    animation: scales .3s 2s ease-in;
+    transition:1s;
+}
+@keyframes scales{
+    from{
+        transform: scale(.9);
+        filter:blur(10);
+    }
+    to{
+        transform: scale(1);
+        filter:blur(0);
+    }
 }
 
 .app img{

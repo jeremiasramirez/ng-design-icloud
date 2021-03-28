@@ -1,0 +1,50 @@
+.container__login{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.title h1{
+    color: rgb(122, 120, 120);
+    font-size:18px;
+    margin: 20px 0 -25px 0;
+}
+
+.logo__icloud{
+    width: 95px;
+    height: 95px;
+}
+.logo__icloud img{
+    width:inherit;
+    height: inherit;
+}
+.inputs{
+    display:flex;
+    height: 200px;
+    width: 400px;
+    justify-content:center;
+    flex-direction: column;
+}
+.keep{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.keepme{
+    font-family: ubuntu;
+    font-weight:600;
+    color: rgb(71, 66, 66);
+}
+.inputs input{
+    width: 350px;
+    background-color: rgb(236, 229, 229);
+    border: .2px solid #ddd; 
+    height: 48px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size:18px;
+    font-weight:500;
+    color:black;
+}

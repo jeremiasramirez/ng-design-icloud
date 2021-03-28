@@ -12,7 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { ItemAppComponent } from './item-app/item-app.component';
 import { NavbarLeftComponent } from './navbar-left/navbar-left.component';
- 
+import {MatCheckboxModule} from '@angular/material/checkbox';
+
 @NgModule({
   declarations: [
     IconComponent,
@@ -29,6 +30,7 @@ import { NavbarLeftComponent } from './navbar-left/navbar-left.component';
     MatRippleModule,
     MatCardModule,
     CommonModule,
+    MatCheckboxModule,
     BrowserAnimationsModule
   ],
   exports: [
@@ -41,6 +43,7 @@ import { NavbarLeftComponent } from './navbar-left/navbar-left.component';
     MatCardModule,
     MatRippleModule,
     ItemAppComponent,
+    MatCheckboxModule,
     UserInfoComponent,
     NavbarLeftComponent,
   ]
