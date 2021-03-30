@@ -1,0 +1,19 @@
+
+/* perfil image*/
+.container__configuration__perfil{
+    display:flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.image__perfil{
+    background-color: #eee;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.image__perfil img{
+    border-radius: inherit;
+    width: inherit
+}
