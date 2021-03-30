@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HelperService } from 'src/app/services/helpers.service';
 
 @Component({
   selector: 'app-user-info',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserInfoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private helper:HelperService) { }
+
+  public onUser() : void{
+    this.helper.navigate("/perfil", 600);
+  }
 
   ngOnInit(): void {
   }
