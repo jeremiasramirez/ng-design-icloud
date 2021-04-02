@@ -20,8 +20,13 @@
         </mat-checkbox>
     </article>
 
-
-    <article>
-        <app-spinner></app-spinner>
+    <article class="container__button__login">
+        <button mat-button (click)="toHome()">Login</button>
     </article>
+
+
+    <article class="animate" >
+        <app-spinner *ngIf="isClicked"></app-spinner>
+    </article>
+
 </section>

@@ -7,11 +7,10 @@ import { HelperService } from 'src/app/services/helpers.service';
   styleUrls: ['./login.page.css']
 })
 export class LoginPage {
-  title = 'page';
+   
 
-  constructor(private helper:HelperService){ 
-    this.helper.navigate("/home", 2000);
-  }
+  constructor(private helper:HelperService){  }
+
 
  
 }

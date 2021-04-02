@@ -13,5 +13,7 @@ export class StartPage {
     this.helper.navigate("/login", 3000);
   }
 
+  
+
  
 }

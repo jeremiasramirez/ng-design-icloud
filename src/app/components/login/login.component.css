@@ -5,7 +5,7 @@
     flex-direction: column;
     flex-wrap: wrap; 
     background-image: url("../../../assets/images/icloud-images/background-login.png");
-    margin-top: 60px;
+    margin-top: 50px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -52,3 +52,14 @@
     font-weight:500;
     color:black;
 }
+
+
+.container__button__login button{
+    background-color: blue;
+    width: 130px;
+    margin: 20px;
+    color: white !important;
+}
+
+
+
